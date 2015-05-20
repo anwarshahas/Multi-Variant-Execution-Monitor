@@ -1,8 +1,5 @@
 ----------------------------Multli Variant Execution Monitor------------------------------------
-blalala
-blalalala
-blalallalla
-blalallalala
+It's an Intrusion Detection Software..
 
 monitor directory contains			
 				monitor/
@@ -33,21 +30,10 @@ make install	: create the executable file
 						src
 						README
 						Makefile
-						objfiles/
-								main.o 
-								read_string.o 
-								write_string.o 
-								init.o 
-								variants.o 
-								monitor_waiting.o 
-								miss_match.o 
-								reg_setting.o 
-								sys_call_check.o 
-								sys_calls_1_20.o 
-								sys_calls_exec_mode.o
 						monitor	
 make clean		: remove object files and exeutable flie
 				monitor/
 						src
 						README
 						Makefile
+						black_list.dat
